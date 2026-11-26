@@ -3,7 +3,6 @@
 /vendor
 /public/build
 /public/hot
-/public/storage
 
 # Environment & Secrets
 .env
