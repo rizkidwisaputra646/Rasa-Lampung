@@ -7,21 +7,12 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\PublicController;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Public Routes
-|--------------------------------------------------------------------------
-*/
 Route::get('/', [PublicController::class, 'home'])->name('home');
 Route::get('/produk', [PublicController::class, 'products'])->name('products.index');
 Route::get('/produk/{slug}', [PublicController::class, 'productDetail'])->name('products.show');
 Route::get('/tentang', [PublicController::class, 'about'])->name('about');
 
-/*
-|--------------------------------------------------------------------------
-| Authentication Routes
-|--------------------------------------------------------------------------
-*/
+
 Route::middleware('guest')->group(function () {
     Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
     Route::post('/login', [AuthController::class, 'login'])->name('login.attempt');
@@ -31,11 +22,7 @@ Route::post('/logout', [AuthController::class, 'logout'])
     ->middleware('auth')
     ->name('logout');
 
-/*
-|--------------------------------------------------------------------------
-| Admin Routes
-|--------------------------------------------------------------------------
-*/
+
 Route::middleware('auth')
     ->prefix('admin')
     ->name('admin.')
