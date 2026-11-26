@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FAFAF5"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="48%">
+      <stop offset="0%" stop-color="#D97706" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#D97706" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="240" r="220" fill="url(#glow)"/>
+  <rect x="48" y="48" width="704" height="504" rx="34" fill="#FFFFFF" fill-opacity="0.92" stroke="#166534" stroke-opacity="0.14" stroke-width="2"/>
+    <ellipse cx="400" cy="344" rx="154" ry="20" fill="#E7E5E4"/>
+  <ellipse cx="400" cy="322" rx="144" ry="26" fill="#FFFFFF" stroke="#D6D3D1" stroke-width="3"/>
+  <path d="M292 252 Q400 320 508 252 L488 308 Q400 335 312 308 Z" fill="#D97706"/>
+  <ellipse cx="400" cy="248" rx="112" ry="44" fill="#FBBF24" stroke="#B45309" stroke-width="4"/>
+  <ellipse cx="400" cy="246" rx="88" ry="30" fill="#FEF08A"/>
+  <path d="M335 242 C360 226, 390 258, 418 238 C438 225, 455 248, 466 244" stroke="#78350F" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <rect x="355" y="232" width="24" height="8" rx="3" transform="rotate(-14 355 232)" fill="#FDE047"/>
+  <rect x="415" y="244" width="24" height="8" rx="3" transform="rotate(18 415 244)" fill="#FDE047"/>
+  <rect x="290" y="396" width="220" height="36" rx="18" fill="#D97706" fill-opacity="0.14"/>
+  <text x="400" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#D97706">Edisi Spesial</text>
+  <text x="400" y="472" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1C1917">Pie Pisang Lampung</text>
+  <text x="400" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#57534E">Rasa Lampung • Kuliner &amp; Oleh-Oleh Khas</text>
+</svg>

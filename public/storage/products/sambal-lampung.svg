@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FEF2F2"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="48%">
+      <stop offset="0%" stop-color="#D97706" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#D97706" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="240" r="220" fill="url(#glow)"/>
+  <rect x="48" y="48" width="704" height="504" rx="34" fill="#FFFFFF" fill-opacity="0.92" stroke="#991B1B" stroke-opacity="0.14" stroke-width="2"/>
+    <ellipse cx="400" cy="346" rx="130" ry="18" fill="#E7E5E4"/>
+  <rect x="330" y="160" width="140" height="175" rx="28" fill="#DC2626" stroke="#991B1B" stroke-width="4"/>
+  <rect x="342" y="180" width="22" height="132" rx="11" fill="#FFFFFF" opacity="0.22"/>
+  <rect x="342" y="130" width="116" height="32" rx="10" fill="#D97706"/>
+  <rect x="352" y="218" width="96" height="62" rx="12" fill="#FAFAF5"/>
+  <text x="400" y="246" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#991B1B">SAMBAL</text>
+  <text x="400" y="266" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#166534">LAMPUNG</text>
+  <path d="M250 326 C265 292, 308 292, 314 334 C290 342, 265 340, 250 326 Z" fill="#B91C1C"/>
+  <path d="M492 328 C508 295, 545 298, 548 334 C526 344, 504 342, 492 328 Z" fill="#DC2626"/>
+  <path d="M244 318 C236 306, 240 296, 250 294" stroke="#166534" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <rect x="290" y="396" width="220" height="36" rx="18" fill="#D97706" fill-opacity="0.14"/>
+  <text x="400" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#D97706">Pedas Autentik</text>
+  <text x="400" y="472" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1C1917">Sambal Lampung</text>
+  <text x="400" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#57534E">Rasa Lampung • Kuliner &amp; Oleh-Oleh Khas</text>
+</svg>

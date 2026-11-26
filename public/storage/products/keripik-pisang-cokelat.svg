@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="48%">
+      <stop offset="0%" stop-color="#D97706" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#D97706" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="240" r="220" fill="url(#glow)"/>
+  <rect x="48" y="48" width="704" height="504" rx="34" fill="#FFFFFF" fill-opacity="0.92" stroke="#78350F" stroke-opacity="0.14" stroke-width="2"/>
+    <ellipse cx="400" cy="336" rx="142" ry="22" fill="#E7E5E4"/>
+  <path d="M270 250 Q400 355 530 250 L506 318 Q400 358 294 318 Z" fill="#92400E"/>
+  <ellipse cx="400" cy="250" rx="130" ry="26" fill="#B45309"/>
+  <ellipse cx="345" cy="232" rx="36" ry="20" transform="rotate(-18 345 232)" fill="#451A03" stroke="#78350F" stroke-width="4"/>
+  <ellipse cx="405" cy="218" rx="40" ry="22" transform="rotate(10 405 218)" fill="#5C2606" stroke="#92400E" stroke-width="4"/>
+  <ellipse cx="458" cy="234" rx="35" ry="19" transform="rotate(24 458 234)" fill="#3F1703" stroke="#78350F" stroke-width="4"/>
+  <ellipse cx="378" cy="252" rx="36" ry="19" transform="rotate(-8 378 252)" fill="#6B2D08" stroke="#D97706" stroke-width="2"/>
+  <ellipse cx="430" cy="250" rx="34" ry="18" transform="rotate(14 430 250)" fill="#4A1E04" stroke="#B45309" stroke-width="2"/>
+  <path d="M240 282 C210 230, 232 185, 278 190 C268 225, 272 258, 286 286 Z" fill="#166534" opacity="0.88"/>
+  <rect x="290" y="396" width="220" height="36" rx="18" fill="#D97706" fill-opacity="0.14"/>
+  <text x="400" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#D97706">Best Seller</text>
+  <text x="400" y="472" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1C1917">Keripik Pisang Cokelat</text>
+  <text x="400" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#57534E">Rasa Lampung • Kuliner &amp; Oleh-Oleh Khas</text>
+</svg>

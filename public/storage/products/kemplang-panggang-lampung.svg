@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF7ED"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="48%">
+      <stop offset="0%" stop-color="#EA580C" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#EA580C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="240" r="220" fill="url(#glow)"/>
+  <rect x="48" y="48" width="704" height="504" rx="34" fill="#FFFFFF" fill-opacity="0.92" stroke="#14532D" stroke-opacity="0.14" stroke-width="2"/>
+    <ellipse cx="400" cy="342" rx="160" ry="20" fill="#E7E5E4"/>
+  <ellipse cx="388" cy="272" rx="135" ry="62" fill="#166534" opacity="0.9"/>
+  <ellipse cx="355" cy="250" rx="52" ry="38" transform="rotate(-12 355 250)" fill="#FEF3C7" stroke="#D97706" stroke-width="4"/>
+  <ellipse cx="422" cy="236" rx="54" ry="40" transform="rotate(14 422 236)" fill="#FDE68A" stroke="#D97706" stroke-width="4"/>
+  <ellipse cx="385" cy="280" rx="50" ry="36" fill="#FFFBEB" stroke="#B45309" stroke-width="4"/>
+  <circle cx="348" cy="245" r="5" fill="#92400E" opacity="0.45"/>
+  <circle cx="430" cy="235" r="6" fill="#92400E" opacity="0.4"/>
+  <circle cx="395" cy="284" r="5" fill="#92400E" opacity="0.4"/>
+  <path d="M475 282 Q515 335 555 282 Z" fill="#FFFFFF" stroke="#D6D3D1" stroke-width="3"/>
+  <ellipse cx="515" cy="282" rx="40" ry="12" fill="#DC2626"/>
+  <rect x="290" y="396" width="220" height="36" rx="18" fill="#EA580C" fill-opacity="0.14"/>
+  <text x="400" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#EA580C">Ikan Tenggiri</text>
+  <text x="400" y="472" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1C1917">Kemplang Panggang Lampung</text>
+  <text x="400" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#57534E">Rasa Lampung • Kuliner &amp; Oleh-Oleh Khas</text>
+</svg>
