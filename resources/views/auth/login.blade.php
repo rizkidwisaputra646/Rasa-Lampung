@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Administrator — Rasa Lampung</title>
+    <title>Login — Rasa Lampung</title>
     <link rel="icon" type="image/png" href="{{ asset('images/logo-rasa-lampung.png') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,14 +17,13 @@
                 <img src="{{ asset('images/logo-rasa-lampung.png') }}"
                      alt="Logo Rasa Lampung"
                      class="h-24 w-auto rounded-2xl border border-stone-200 bg-white px-4 py-2 object-contain shadow-xs">
-                <span class="block text-xs font-semibold uppercase tracking-wider text-[#D97706]">Portal Administrator</span>
             </a>
         </div>
 
         <div class="rounded-3xl border border-stone-200 bg-white p-8 shadow-sm">
-            <h1 class="font-heading text-2xl font-extrabold text-[#1C1917]">Masuk ke Dashboard</h1>
+            <h1 class="font-heading text-2xl font-extrabold text-[#1C1917]">Login</h1>
             <p class="mt-2 text-sm text-stone-600">
-                Silakan masuk menggunakan akun administrator untuk mengelola katalog produk dan kategori.
+                Silakan masuk menggunakan email dan password Anda.
             </p>
 
             @if (session('success'))
@@ -44,7 +43,7 @@
                            value="{{ old('email') }}"
                            required
                            autofocus
-                           placeholder="admin@rasalampung.test"
+                           placeholder="email@contoh.com"
                            class="mt-2 w-full rounded-xl border px-4 py-3 text-sm text-[#1C1917] transition focus:outline-none focus:ring-2 {{ $errors->has('email') ? 'border-red-400 bg-red-50/40 focus:border-red-500 focus:ring-red-200' : 'border-stone-300 bg-[#FAFAF5] focus:border-[#166534] focus:bg-white focus:ring-[#166534]/20' }}">
                     @error('email')
                         <p class="mt-1.5 text-xs font-medium text-red-600">{{ $message }}</p>
@@ -57,7 +56,7 @@
                            type="password"
                            name="password"
                            required
-                           placeholder="Masukkan password administrator"
+                           placeholder="Masukkan password"
                            class="mt-2 w-full rounded-xl border px-4 py-3 text-sm text-[#1C1917] transition focus:outline-none focus:ring-2 {{ $errors->has('password') ? 'border-red-400 bg-red-50/40 focus:border-red-500 focus:ring-red-200' : 'border-stone-300 bg-[#FAFAF5] focus:border-[#166534] focus:bg-white focus:ring-[#166534]/20' }}">
                     @error('password')
                         <p class="mt-1.5 text-xs font-medium text-red-600">{{ $message }}</p>
@@ -73,7 +72,7 @@
 
                 <button type="submit"
                         class="w-full rounded-xl bg-[#166534] px-5 py-3.5 text-sm font-semibold text-white shadow-xs transition hover:bg-[#14532D] focus:outline-none focus:ring-2 focus:ring-[#166534]/40">
-                    Masuk Dashboard
+                    Login
                 </button>
             </form>
         </div>

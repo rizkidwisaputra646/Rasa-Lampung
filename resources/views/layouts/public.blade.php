@@ -43,12 +43,12 @@
                     @auth
                         <a href="{{ route('admin.dashboard') }}"
                            class="inline-flex items-center gap-2 rounded-xl border border-[#166534]/20 bg-white px-4 py-2 text-sm font-semibold text-[#166534] shadow-xs transition hover:border-[#166534] hover:bg-[#166534] hover:text-white">
-                            Dashboard Admin
+                            Dashboard
                         </a>
                     @else
                         <a href="{{ route('login') }}"
                            class="inline-flex items-center gap-2 rounded-xl border border-stone-300 bg-white px-4 py-2 text-sm font-medium text-stone-700 transition hover:border-[#166534] hover:text-[#166534]">
-                            Admin
+                            Login
                         </a>
                     @endauth
                 </div>
@@ -82,11 +82,11 @@
                     <div class="pt-2 mt-2 border-t border-stone-200">
                         @auth
                             <a href="{{ route('admin.dashboard') }}" class="block rounded-xl bg-white border border-[#166534]/20 px-4 py-2.5 text-sm font-semibold text-[#166534]">
-                                Dashboard Admin
+                                Dashboard
                             </a>
                         @else
                             <a href="{{ route('login') }}" class="block rounded-xl bg-white border border-stone-300 px-4 py-2.5 text-sm font-medium text-stone-700">
-                                Login Admin
+                                Login
                             </a>
                         @endauth
                     </div>
@@ -123,7 +123,7 @@
                         <li><a href="{{ route('home') }}" class="hover:text-white transition-colors">Beranda</a></li>
                         <li><a href="{{ route('products.index') }}" class="hover:text-white transition-colors">Katalog Produk</a></li>
                         <li><a href="{{ route('about') }}" class="hover:text-white transition-colors">Tentang Kami</a></li>
-                        <li><a href="{{ route('login') }}" class="hover:text-white transition-colors">Portal Administrator</a></li>
+                        <li><a href="{{ route('login') }}" class="hover:text-white transition-colors">Login</a></li>
                     </ul>
                 </div>
 
